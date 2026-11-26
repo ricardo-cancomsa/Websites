@@ -99,13 +99,3 @@ Rule: amber is a fill only (buttons, logo), always with navy text. Amber text on
 
 If the app's own status colours are supplied, the brief says the app wins; re-check contrast before
 swapping them in.
-
-## Raise with the business (add to brief section 9)
-
-1. Free legal support: Home promises it firmly; Terms 7 hedges ("where we elect to"). Pick one.
-2. Section 9 says the reward trigger appears in the FAQ; no FAQ answer mentions rewards.
-3. "Get the app" button before store listings go live: it points at `#contact`. Keep, or hide until live?
-4. Hero: Quick Capture mock-up on navy, or the 2400 px hero photo? Built with the mock-up for now.
-5. Home statistics (11 000 deaths in 2025, R205 billion) need a cited source before go-live.
-6. App must log the Terms/Privacy version each user accepts (pairs with decision 2).
-7. `www.ucanfine.com`: bind and redirect to the bare domain, or leave unbound?
