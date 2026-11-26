@@ -422,5 +422,14 @@ The site can be built now with placeholders, but it cannot go live until these a
 - [ ] **Store listings.** App Store and Google Play URLs for the badges, and add `/privacy-policy` and `/delete-account` to both listings.
 - [ ] **App links.** Point the app's Terms of Use, Privacy Policy and Disclaimer links to `/terms`, `/privacy-policy` and `/disclaimer` (closes BUG-002 and issue 5).
 - [ ] **PAIA manual.** Publish one, or state it is available on request.
+- [ ] **Free legal support wording.** Home promises it firmly; Terms 7 hedges ("where we elect to"). Pick one.
+- [ ] **Reward trigger in the FAQ.** The reward trigger item above names the FAQ, but no FAQ answer mentions rewards.
+- [ ] **"Get the app" button.** Until the store listings go live it points at `#contact`. Keep it, or hide it until live?
+- [ ] **Hero image.** Quick Capture mock-up on navy, or the 2400 px hero photo? Built with the mock-up for now.
+- [ ] **Home statistics.** The figures (11 000 deaths in 2025, R205 billion) need a cited source before go-live.
+- [ ] **Accepted version log.** The app must log the Terms and Privacy Policy version each user accepts; old versions are not published, only tagged in git.
+- [ ] **`www` subdomain.** Bind `www.ucanfine.com` and redirect it to the bare domain, or leave it unbound?
+- [ ] **Reward payment period.** Terms 8.3 says rewards are paid within a number of days of becoming due; set the number.
+- [ ] **Effective date.** Set the "Last updated" date on the Privacy Policy and Terms at publish.
 
 The Information Regulator contact details are from its [contact page](https://inforegulator.org.za/?p=1256) and a [Western Cape Government notice](https://www.westerncape.gov.za/your_gov/70/documents/policies/P/56894?toc_page=7); recheck before publishing.
