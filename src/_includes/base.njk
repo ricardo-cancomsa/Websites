@@ -1,3 +1,10 @@
+{%- set wordmark -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 48" role="img" aria-label="U CANFINE">
+  <rect x="0" y="4" width="40" height="40" rx="9" fill="#FFB400"/>
+  <path d="M12 14v11a8 8 0 0 0 16 0V14" fill="none" stroke="#0B1F3A" stroke-width="4.5" stroke-linecap="round"/>
+  <text x="52" y="33" font-family="Montserrat, system-ui, sans-serif" font-weight="700" font-size="24" fill="#FFFFFF" letter-spacing="1">U CANFINE</text>
+</svg>
+{%- endset -%}
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,10 +17,50 @@
   <meta property="og:description" content="{{ description }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:type" content="website">
+  <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
-  <main id="main">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="wordmark" href="/">{{ wordmark | safe }}</a>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/#how-it-works">How it works</a></li>
+          <li><a href="/#faq">FAQ</a></li>
+          <li><a href="/#contact">Contact</a></li>
+          <li><a class="btn" href="/#contact">Get the app</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
     {{ content | safe }}
   </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <a class="wordmark" href="/">{{ wordmark | safe }}</a>
+      <ul class="links">
+        <li><a href="/privacy-policy/">Privacy Policy</a></li>
+        <li><a href="/terms/">Terms and Conditions</a></li>
+        <li><a href="/delete-account/">Account Deletion</a></li>
+        <li><a href="/#contact">Contact</a></li>
+      </ul>
+      <p class="badges">
+        {%- if site.appStoreUrl or site.playStoreUrl %}
+        {% if site.appStoreUrl %}<a href="{{ site.appStoreUrl }}">Download on the App Store</a>{% endif %}
+        {% if site.playStoreUrl %}<a href="{{ site.playStoreUrl }}">Get it on Google Play</a>{% endif %}
+        {%- else %}
+        <a href="/#contact">Coming soon</a>
+        {%- endif %}
+      </p>
+      <p>{{ site.companyName }} (Reg. no. {{ site.regNo }}) · {{ site.address }} · {{ site.phone }} · <a href="mailto:{{ site.emailInfo }}">{{ site.emailInfo }}</a></p>
+      <p>Patent pending: ZA 2023/04569, PCT/ZA2024/050016</p>
+      <p>© {{ site.year }} U CANFINE. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
