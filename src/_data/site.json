@@ -1,0 +1,20 @@
+{
+  "url": "https://ucanfine.com",
+  "year": "2026",
+  "companyName": "[REGISTERED COMPANY NAME]",
+  "regNo": "[NUMBER]",
+  "address": "[PHYSICAL ADDRESS]",
+  "phone": "[PHONE]",
+  "infoOfficer": "[NAME]",
+  "emailInfo": "info@ucanfine.com",
+  "emailSupport": "support@ucanfine.com",
+  "emailPrivacy": "privacy@ucanfine.com",
+  "partnerName": "[NAME]",
+  "partnerEmail": "[EMAIL]",
+  "partnerPhone": "[PHONE]",
+  "rewardTrigger": "[issued / paid]",
+  "legalSupportHome": "[U CANFINE's legal team will support you at no cost]",
+  "legalSupportTerms": "[where we elect to, our legal team will support you at no cost to you]",
+  "appStoreUrl": "",
+  "playStoreUrl": ""
+}

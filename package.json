@@ -1,0 +1,12 @@
+{
+  "name": "ucanfine-site",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.8",
+    "markdown-it-anchor": "^10.1.0"
+  }
+}

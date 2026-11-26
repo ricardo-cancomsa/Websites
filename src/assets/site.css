@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/montserrat-latin-700-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/inter-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/inter-latin-600-normal.woff2") format("woff2");
+}
+
+:root {
+  --navy: #0B1F3A;
+  --amber: #FFB400;
+  --white: #FFFFFF;
+  --mist: #F3F5F8;
+  --slate: #5B6B7F;
+  --green: #187E48;
+  --red: #D13030;
+  --blue: #2669DD;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font: 400 17px/1.6 Inter, system-ui, sans-serif;
+  color: var(--navy);
+  background: var(--white);
+}
+
+h1, h2, h3 {
+  font-family: Montserrat, system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p { max-width: 75ch; }
+strong { font-weight: 600; }
+a { color: var(--blue); }
+
+:focus-visible { outline: 3px solid var(--navy); outline-offset: 2px; }
+.site-header :focus-visible, .site-footer :focus-visible { outline-color: var(--amber); }
+
+.wrap { max-width: 72rem; margin-inline: auto; padding-inline: 1rem; }
+
+.skip { position: absolute; left: -9999px; }
+.skip:focus { left: 1rem; top: 1rem; padding: 0.5rem 1rem; background: var(--amber); color: var(--navy); }
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  background: var(--amber);
+  color: var(--navy);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.mist { background: var(--mist); }
+.card { padding: 1.5rem; border-radius: 12px; background: var(--mist); }
+.mist .card { background: var(--white); }
+
+/* Header and footer */
+.site-header, .site-footer { background: var(--navy); color: var(--white); }
+.site-header a:not(.btn), .site-footer a { color: var(--white); }
+.wordmark svg { display: block; width: 200px; height: auto; }
+.site-header ul, .site-footer ul { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.25rem; margin: 0; padding: 0; list-style: none; }
+
+.site-header .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+  padding-block: 0.75rem;
+}
+.site-header a:not(.btn) { text-decoration: none; }
+.site-header a:not(.btn):hover { text-decoration: underline; }
+
+main { padding-block: 2rem 3rem; }
+
+.site-footer { font-size: 15px; }
+.site-footer .wrap { padding-block: 2rem; }
+.site-footer ul { margin-block: 1.5rem; }
