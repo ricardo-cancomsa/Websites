@@ -91,3 +91,19 @@ main { padding-block: 2rem 3rem; }
 .site-footer { font-size: 15px; }
 .site-footer .wrap { padding-block: 2rem; }
 .site-footer ul { margin-block: 1.5rem; }
+
+/* Legal pages */
+.version { color: var(--slate); }
+.toc ol { padding-left: 1.25rem; }
+.toc a { text-decoration: none; }
+nav.toc { display: none; }
+.legal { font-size: 16px; max-width: 75ch; }
+.legal .header-anchor { margin-left: 0.4rem; color: var(--slate); text-decoration: none; }
+.legal table { border-collapse: collapse; margin-block: 1rem; }
+.legal th, .legal td { padding: 0.5rem; border-bottom: 1px solid var(--slate); text-align: left; vertical-align: top; }
+
+@media (min-width: 960px) {
+  details.toc { display: none; }
+  .legal-layout { display: grid; grid-template-columns: 16rem minmax(0, 1fr); gap: 3rem; align-items: start; }
+  nav.toc { display: block; position: sticky; top: 1rem; font-size: 15px; }
+}
