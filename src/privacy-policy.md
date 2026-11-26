@@ -7,15 +7,15 @@ version: "1.0"
 updated: "[DATE]"
 ---
 
-### 1. Who we are
+## 1. Who we are
 
-U CANFINE is operated by \[REGISTERED COMPANY NAME\] (registration number \[NUMBER\]), \[PHYSICAL ADDRESS\], South Africa ("U CANFINE", "we", "us"). We are the responsible party for the personal information described in this policy.
+U CANFINE is operated by {{ site.companyName }} (registration number {{ site.regNo }}), {{ site.address }}, South Africa ("U CANFINE", "we", "us"). We are the responsible party for the personal information described in this policy.
 
-Our Information Officer is \[NAME\], privacy@ucanfine.com, \[PHONE\].
+Our Information Officer is {{ site.infoOfficer }}, [{{ site.emailPrivacy }}](mailto:{{ site.emailPrivacy }}), {{ site.phone }}.
 
 This policy applies to the U CANFINE mobile app, the website ucanfine.com and the U CANFINE Adjudication Centre. It covers two groups of people: **users** who register and submit evidence, and **people who appear in evidence**, such as drivers, vehicle owners and bystanders.
 
-### 2. Information we collect from users
+## 2. Information we collect from users
 
 - **Identity and contact:** full name, South African ID number, date of birth, email address, mobile number and residential address.
 - **Verification:** copies of your ID document and proof of address, a live selfie taken at registration and at login, and the results of background checks, including credit, criminal record and address verification.
@@ -28,13 +28,13 @@ This policy applies to the U CANFINE mobile app, the website ucanfine.com and th
 
 Your live selfie and facial verification are biometric information, and criminal record checks involve information about criminal behaviour. Both are special personal information under POPIA. We process them only with your consent and only to verify your identity and suitability to submit evidence.
 
-### 3. Information about people who appear in evidence
+## 3. Information about people who appear in evidence
 
 Submitted evidence may show vehicles, number plates, drivers, passengers and bystanders. We use it only to adjudicate the alleged offence. When an offence is accepted, we obtain the registered owner's or driver's details from eNaTIS or the relevant authority so that an infringement notice can be issued. Evidence of a crime is referred to the South African Police Service (SAPS).
 
 We do not use this information for any other purpose, and we do not publish it. Information about bystanders is not processed beyond what is needed to review the evidence.
 
-### 4. Why we use your information
+## 4. Why we use your information
 
 | Purpose | Lawful basis under POPIA |
 | --- | --- |
@@ -48,7 +48,7 @@ We do not use this information for any other purpose, and we do not publish it. 
 
 We will only send you marketing messages if you opt in, and you can opt out at any time.
 
-### 5. Who we share information with
+## 5. Who we share information with
 
 - **Traffic and law-enforcement authorities:** metropolitan and municipal traffic departments, the Road Traffic Management Corporation and its service providers, eNaTIS, and SAPS.
 - **Courts and prosecutors:** when evidence is needed in proceedings or we receive a lawful request.
@@ -58,41 +58,41 @@ We will only send you marketing messages if you opt in, and you can opt out at a
 
 We do not share your identity with the person you report. We do not sell personal information.
 
-### 6. Transfers outside South Africa
+## 6. Transfers outside South Africa
 
 Some of our service providers, such as cloud hosting, may store information outside South Africa. We only transfer information to countries with adequate data-protection laws, or under binding agreements that give protection equivalent to POPIA, as section 72 of POPIA requires.
 
-### 7. How we protect information
+## 7. How we protect information
 
 Evidence is captured only inside the app, encrypted on the device with its date, time and location, and cannot be edited or shared from the app. Information is encrypted in transit and at rest, access is limited to authorised staff, and we keep audit logs of who accesses evidence. If a security compromise affects you, we will notify you and the Information Regulator.
 
-### 8. How long we keep information
+## 8. How long we keep information
 
 | Information | Retention |
 | --- | --- |
-| Evidence on your phone after upload | Deleted from the device \[7 / 60\] days after successful upload |
-| Evidence and adjudication records | Until any related proceedings are finalised, plus \[X\] years |
-| Declined submissions | \[X\] months after the decision |
-| Verification documents and selfies | While your account is active, then deleted within \[90\] days |
+| Evidence on your phone after upload | Deleted from the device [7 / 60] days after successful upload |
+| Evidence and adjudication records | Until any related proceedings are finalised, plus [X] years |
+| Declined submissions | [X] months after the decision |
+| Verification documents and selfies | While your account is active, then deleted within [90] days |
 | Payment and tax records | 5 years after the payment |
 | Car Mode loop recording not saved by you | Overwritten automatically; never uploaded |
 
 After these periods we delete or de-identify the information.
 
-### 9. Your rights
+## 9. Your rights
 
-You may ask us to confirm what information we hold about you and to give you a copy; correct or delete information that is inaccurate, out of date or unlawfully held; object to processing based on legitimate interests; withdraw consent (this may mean you can no longer use the app); and opt out of marketing. Email privacy@ucanfine.com. We will respond within 30 days and may need to verify your identity first. To delete your account, see Account Deletion.
+You may ask us to confirm what information we hold about you and to give you a copy; correct or delete information that is inaccurate, out of date or unlawfully held; object to processing based on legitimate interests; withdraw consent (this may mean you can no longer use the app); and opt out of marketing. Email [{{ site.emailPrivacy }}](mailto:{{ site.emailPrivacy }}). We will respond within 30 days and may need to verify your identity first. To delete your account, see [Account Deletion](/delete-account/).
 
-You can also complain to the Information Regulator: website inforegulator.org.za, email POPIAComplaints@inforegulator.org.za, general enquiries enquiries@inforegulator.org.za, toll-free 0800 017 160.
+You can also complain to the Information Regulator: website inforegulator.org.za, email [POPIAComplaints@inforegulator.org.za](mailto:POPIAComplaints@inforegulator.org.za), general enquiries [enquiries@inforegulator.org.za](mailto:enquiries@inforegulator.org.za), toll-free 0800 017 160.
 
-### 10. Children
+## 10. Children
 
 U CANFINE is only for people aged 18 and older. We do not knowingly register anyone younger. Children may appear in evidence; that evidence is used only as described in section 3.
 
-### 11. Changes to this policy
+## 11. Changes to this policy
 
 We will post changes on this page and update the date above. If a change is significant, we will tell you in the app, and you will be asked to accept it at your next login.
 
-### 12. Contact
+## 12. Contact
 
-Information Officer, \[REGISTERED COMPANY NAME\], \[PHYSICAL ADDRESS\] · privacy@ucanfine.com · \[PHONE\]. Our PAIA manual is available at \[URL or on request\].
+Information Officer, {{ site.companyName }}, {{ site.address }} · [{{ site.emailPrivacy }}](mailto:{{ site.emailPrivacy }}) · {{ site.phone }}. Our PAIA manual is available at [URL or on request].
