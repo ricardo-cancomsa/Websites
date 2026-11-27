@@ -48,7 +48,7 @@ strong { font-weight: 600; }
 a { color: var(--blue); }
 
 :focus-visible { outline: 3px solid var(--navy); outline-offset: 2px; }
-.site-header :focus-visible, .site-footer :focus-visible, .navy :focus-visible { outline-color: var(--amber); }
+.navy :focus-visible { outline-color: var(--amber); }
 
 .wrap { max-width: 72rem; margin-inline: auto; padding-inline: 1rem; }
 
@@ -71,7 +71,6 @@ a { color: var(--blue); }
 .mist .card { background: var(--white); }
 
 /* Header and footer */
-.site-header, .site-footer { background: var(--navy); color: var(--white); }
 .site-header a:not(.btn), .site-footer a { color: var(--white); }
 .wordmark svg { display: block; width: 200px; height: auto; }
 .site-header ul, .site-footer ul { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.25rem; margin: 0; padding: 0; list-style: none; }
