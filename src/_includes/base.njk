@@ -62,7 +62,7 @@
         {%- endif %}
       </p>
       <p>{{ site.companyName }} (Reg. no. {{ site.regNo }}) · {{ site.address }} · {{ site.phone }} · <a href="mailto:{{ site.emailInfo }}">{{ site.emailInfo }}</a></p>
-      <p>Patent pending: ZA 2023/04569, PCT/ZA2024/050016</p>
+      <p>Patent pending: {{ site.patents | join(", ") }}</p>
       <p>© {{ site.year }} U CANFINE. All rights reserved.</p>
     </div>
   </footer>
