@@ -69,7 +69,7 @@ Every submission is reviewed by qualified traffic officers at the U CANFINE Adju
 
 You keep any rights you have in your evidence, but you give us a perpetual, irrevocable, royalty-free licence to store, copy, analyse, use and share it with authorities and courts, and to use it in de-identified form to improve our systems. You confirm that you have the right to give us this licence.
 
-The app, website, software, trademarks and content belong to U CANFINE or our licensors and are protected by law, including patent applications ZA 2023/04569 and PCT/ZA2024/050016. You may not copy, reverse-engineer or modify the app.
+The app, website, software, trademarks and content belong to U CANFINE or our licensors and are protected by law, including patent applications {{ site.patents | join(" and ") }}. You may not copy, reverse-engineer or modify the app.
 
 ## 10. Optional paid services
 

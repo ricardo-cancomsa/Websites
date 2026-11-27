@@ -2,103 +2,120 @@
 title: U CANFINE — Change driver behaviour. Save lives.
 description: U CANFINE lets vetted South Africans capture traffic offences and crimes on their phones and send the evidence straight to qualified traffic officers.
 layout: base.njk
+permalink: /
 ---
-<section class="band navy hero">
-  <div class="split">
-    <div>
-      <h1>Change driver behaviour. Save lives.</h1>
-      <p>U CANFINE lets vetted South Africans capture traffic offences and crimes on their phones and send the evidence straight to qualified traffic officers. When your evidence leads to a fine, you get paid.</p>
-      <p class="actions"><a class="btn" href="#contact">Get the app</a> <a class="btn outline" href="#how-it-works">How it works</a></p>
+<section class="band navy">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <h1>Change driver behaviour. Save lives.</h1>
+        <p>U CANFINE lets vetted South Africans capture traffic offences and crimes on their phones and send the evidence straight to qualified traffic officers. When your evidence leads to a fine, you get paid.</p>
+        <p><a class="btn" href="#get-the-app">Get the app</a> <a class="btn outline" href="#how-it-works">How it works</a></p>
+      </div>
+      <div class="shot" role="img" aria-label="Screenshot: Quick Capture">Screenshot: Quick Capture</div>
     </div>
-    <div class="shot" role="img" aria-label="Screenshot: Quick Capture">Screenshot: Quick Capture</div>
   </div>
 </section>
 
 <section class="band mist">
-  <div class="cols">
-    <p class="card"><strong>More than 11 000 people</strong> died on South African roads in 2025.</p>
-    <p class="card"><strong>About R205 billion</strong> is what road crashes cost the country each year.</p>
-    <p class="card"><strong>Too few officers</strong> are on the road to enforce the rules.</p>
+  <div class="wrap">
+    <div class="cols">
+      <p class="card"><strong>More than 11 000 people</strong> died on South African roads in 2025.</p>
+      <p class="card"><strong>About R205 billion</strong> is what road crashes cost the country each year.</p>
+      <p class="card"><strong>Too few officers</strong> are on the road to enforce the rules.</p>
+    </div>
+    <p>Road safety is a shared responsibility. U CANFINE puts more eyes on the road, without more cameras on poles.</p>
   </div>
-  <p>Road safety is a shared responsibility. U CANFINE puts more eyes on the road, without more cameras on poles.</p>
 </section>
 
 <section class="band" id="how-it-works">
-  <div class="cols">
-    <div>
-      {% include "icons/camera.svg" %}
-      <p><strong>1. Capture.</strong> See an offence, open the app and take a photo or video. Evidence can only be captured inside the app, and every file is stamped with the date, time and GPS location and encrypted on the spot.</p>
-      <div class="shot" role="img" aria-label="Screenshot: Quick Capture">Screenshot: Quick Capture</div>
-    </div>
-    <div>
-      {% include "icons/send.svg" %}
-      <p><strong>2. Submit.</strong> Choose the offence type from the list, confirm the vehicle registration and submit. You can follow every submission on your dashboard: Submitted, Under Review, Accepted or Declined.</p>
-      <div class="shot" role="img" aria-label="Screenshot: Create Offence">Screenshot: Create Offence</div>
-    </div>
-    <div>
-      {% include "icons/scale.svg" %}
-      <p><strong>3. Adjudicate and issue.</strong> Qualified traffic officers at the U CANFINE Adjudication Centre review your evidence. If it is accepted, the infringement notice is sent to the offender through the relevant authority. Crimes are referred to SAPS.</p>
-      <div class="shot" role="img" aria-label="Screenshot: Dashboard">Screenshot: Dashboard</div>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        {% include "icons/camera.svg" %}
+        <p><strong>1. Capture.</strong> See an offence, open the app and take a photo or video. Evidence can only be captured inside the app, and every file is stamped with the date, time and GPS location and encrypted on the spot.</p>
+        <div class="shot" role="img" aria-label="Screenshot: Quick Capture">Screenshot: Quick Capture</div>
+      </div>
+      <div>
+        {% include "icons/send.svg" %}
+        <p><strong>2. Submit.</strong> Choose the offence type from the list, confirm the vehicle registration and submit. You can follow every submission on your dashboard: Submitted, Under Review, Accepted or Declined.</p>
+        <div class="shot" role="img" aria-label="Screenshot: Create Offence">Screenshot: Create Offence</div>
+      </div>
+      <div>
+        {% include "icons/scale.svg" %}
+        <p><strong>3. Adjudicate and issue.</strong> Qualified traffic officers at the U CANFINE Adjudication Centre review your evidence. If it is accepted, the infringement notice is sent to the offender through the relevant authority. Crimes are referred to SAPS.</p>
+        <div class="shot" role="img" aria-label="Screenshot: Dashboard">Screenshot: Dashboard</div>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="band mist">
-  {% include "icons/user-check.svg" %}
-  <p><strong>Every member is vetted.</strong> To keep the evidence trustworthy, each user is verified before they can submit: South African ID, a live selfie, proof of address, and background checks including credit and criminal record. Only approved phone makes and models can be used, so picture and video quality stands up to review.</p>
-  <p>You must be 18 or older and a South African resident.</p>
+  <div class="wrap">
+    {% include "icons/user-check.svg" %}
+    <p><strong>Every member is vetted.</strong> To keep the evidence trustworthy, each user is verified before they can submit: South African ID, a live selfie, proof of address, and background checks including credit and criminal record. Only approved phone makes and models can be used, so picture and video quality stands up to review.</p>
+    <p>You must be 18 or older and a South African resident.</p>
+  </div>
 </section>
 
 <section class="band" id="safety">
-  <div class="split">
-    <div>
-      {% include "icons/car.svg" %}
-      <p><strong>Never use your phone while driving.</strong> If you are driving, U CANFINE only works with your phone in a certified dashboard cradle and the app in Car Mode. Car Mode records continuously in a short loop, so one tap saves what just happened.</p>
-      {% include "icons/shield-check.svg" %}
-      <p><strong>Never put yourself at risk.</strong> Do not confront, follow or approach anyone. Capture only what you can safely see from where you are.</p>
-      {% include "icons/lock.svg" %}
-      <p><strong>Built for court.</strong> Original, unedited files, a recorded chain of custody, and the date, time and location on every capture. If you are subpoenaed to give evidence, {{ site.legalSupportHome }}.</p>
+  <div class="wrap">
+    <div class="split">
+      <div>
+        {% include "icons/car.svg" %}
+        <p><strong>Never use your phone while driving.</strong> If you are driving, U CANFINE only works with your phone in a certified dashboard cradle and the app in Car Mode. Car Mode records continuously in a short loop, so one tap saves what just happened.</p>
+        {% include "icons/shield-check.svg" %}
+        <p><strong>Never put yourself at risk.</strong> Do not confront, follow or approach anyone. Capture only what you can safely see from where you are.</p>
+        {% include "icons/lock.svg" %}
+        <p><strong>Built for court.</strong> Original, unedited files, a recorded chain of custody, and the date, time and location on every capture. If you are subpoenaed to give evidence, {{ site.legalSupportHome }}.</p>
+      </div>
+      <div class="shot" role="img" aria-label="Screenshot: Car Mode">Screenshot: Car Mode</div>
     </div>
-    <div class="shot" role="img" aria-label="Screenshot: Car Mode">Screenshot: Car Mode</div>
   </div>
 </section>
 
 <section class="band mist">
-  {% include "icons/wallet.svg" %}
-  <p><strong>Get paid when your evidence counts.</strong> You earn a reward for each submission that is accepted and results in a fine being {{ site.rewardTrigger }}. Declined submissions earn nothing. Reward amounts are shown in the app. U CANFINE does not handle speeding offences.</p>
+  <div class="wrap">
+    {% include "icons/wallet.svg" %}
+    <p><strong>Get paid when your evidence counts.</strong> You earn a reward for each submission that is accepted and results in a fine being {{ site.rewardTrigger }}. Declined submissions earn nothing. Reward amounts are shown in the app. U CANFINE does not handle speeding offences.</p>
+  </div>
 </section>
 
 <section class="band" id="faq">
-  <details>
-    <summary>Is U CANFINE free?</summary>
-    <p>Yes, the app is free to download and use. [Optional paid add-on: an emergency reaction-unit service.]</p>
-  </details>
-  <details>
-    <summary>What can I report?</summary>
-    <p>Traffic offences such as red-light violations, illegal overtaking, using a phone while driving, and stopping in prohibited zones, plus criminal incidents. Speeding is not handled through the app.</p>
-  </details>
-  <details>
-    <summary>Can I upload photos from my gallery?</summary>
-    <p>No. To protect the integrity of the evidence, everything must be captured inside the app.</p>
-  </details>
-  <details>
-    <summary>Will the offender know who reported them?</summary>
-    <p>Your identity is not shared with the offender. It is only disclosed to the authorities, or to a court if you are required to give evidence.</p>
-  </details>
-  <details>
-    <summary>Why do I accept the Terms every day?</summary>
-    <p>You confirm each day that you will use the app safely and lawfully, including not using it while driving unless your phone is cradled and in Car Mode.</p>
-  </details>
-  <details>
-    <summary>What happens if I break the rules?</summary>
-    <p>False, edited or unsafe submissions lead to suspension for at least six months, and may be reported to the authorities.</p>
-  </details>
-  <details>
-    <summary>How do I delete my account?</summary>
-    <p>See <a href="/delete-account/">Account Deletion</a>.</p>
-  </details>
+  <div class="wrap">
+    <details>
+      <summary>Is U CANFINE free?</summary>
+      <p>Yes, the app is free to download and use. [Optional paid add-on: an emergency reaction-unit service.]</p>
+    </details>
+    <details>
+      <summary>What can I report?</summary>
+      <p>Traffic offences such as red-light violations, illegal overtaking, using a phone while driving, and stopping in prohibited zones, plus criminal incidents. Speeding is not handled through the app.</p>
+    </details>
+    <details>
+      <summary>Can I upload photos from my gallery?</summary>
+      <p>No. To protect the integrity of the evidence, everything must be captured inside the app.</p>
+    </details>
+    <details>
+      <summary>Will the offender know who reported them?</summary>
+      <p>Your identity is not shared with the offender. It is only disclosed to the authorities, or to a court if you are required to give evidence.</p>
+    </details>
+    <details>
+      <summary>Why do I accept the Terms every day?</summary>
+      <p>You confirm each day that you will use the app safely and lawfully, including not using it while driving unless your phone is cradled and in Car Mode.</p>
+    </details>
+    <details>
+      <summary>What happens if I break the rules?</summary>
+      <p>False, edited or unsafe submissions lead to suspension for at least six months, and may be reported to the authorities.</p>
+    </details>
+    <details>
+      <summary>How do I delete my account?</summary>
+      <p>See <a href="/delete-account/">Account Deletion</a>.</p>
+    </details>
+  </div>
 </section>
 
 <section class="band" id="contact">
-  <p><strong>Get in touch.</strong> General: <a href="mailto:{{ site.emailInfo }}">{{ site.emailInfo }}</a> · Support: <a href="mailto:{{ site.emailSupport }}">{{ site.emailSupport }}</a> · Privacy: <a href="mailto:{{ site.emailPrivacy }}">{{ site.emailPrivacy }}</a> · Partnerships and authorities: {{ site.partnerName }}, <a href="mailto:{{ site.partnerEmail }}">{{ site.partnerEmail }}</a>, {{ site.partnerPhone }}.</p>
+  <div class="wrap">
+    <p><strong>Get in touch.</strong> General: <a href="mailto:{{ site.emailInfo }}">{{ site.emailInfo }}</a> · Support: <a href="mailto:{{ site.emailSupport }}">{{ site.emailSupport }}</a> · Privacy: <a href="mailto:{{ site.emailPrivacy }}">{{ site.emailPrivacy }}</a> · Partnerships and authorities: {{ site.partnerName }}, <a href="mailto:{{ site.partnerEmail }}">{{ site.partnerEmail }}</a>, {{ site.partnerPhone }}.</p>
+  </div>
 </section>

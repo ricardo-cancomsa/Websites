@@ -3,7 +3,6 @@ const markdownItAnchor = require("markdown-it-anchor");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/web.config");
-  eleventyConfig.addPassthroughCopy("src/robots.txt");
 
   eleventyConfig.amendLibrary("md", (md) =>
     md.use(markdownItAnchor, {
