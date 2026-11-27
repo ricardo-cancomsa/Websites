@@ -4,6 +4,8 @@ description: How to delete your U CANFINE account and personal information, and 
 permalink: /delete-account/
 layout: base.njk
 ---
+<div class="wrap">
+
 # Delete your U CANFINE account
 
 You can ask us to delete your account and personal information at any time.
@@ -19,3 +21,5 @@ You can ask us to delete your account and personal information at any time.
 **Rewards owed:** any reward already earned is paid out before your account is closed. Submissions still under review when you delete your account are withdrawn and earn no reward [confirm].
 
 Questions? Read our [Privacy Policy](/privacy-policy/) or email [{{ site.emailPrivacy }}](mailto:{{ site.emailPrivacy }}).
+
+</div>
